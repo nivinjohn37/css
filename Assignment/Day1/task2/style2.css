@@ -1,0 +1,54 @@
+.box{
+    width: 400px;
+    border: 1px solid rgb(211, 211, 211);
+    margin: 50px auto;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.box h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    padding: 0px 15px;
+}
+
+.btn-div{
+    width: 100%;
+    padding: 50px;
+}
+
+.btn-div .btn{
+width: 16%;
+height: 60px;
+border: none;
+cursor: pointer;
+border-radius: 50%;
+margin-right: 50px;
+margin-top: -20px;
+}
+
+.box-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.view_prof{
+    padding: 12px 23px;
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.view_prof a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}

@@ -1,0 +1,47 @@
+.card{
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.box{
+    margin: 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+.box h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.box p{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.box button{
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 5px;
+    width: 45%;
+    background-color: white;
+    color: #2e66ba;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.subBox{
+    margin: auto;
+}
+
+.subBox img{
+    width: 10%;
+}

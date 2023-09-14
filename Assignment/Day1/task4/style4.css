@@ -1,0 +1,59 @@
+  h2{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .login {
+    text-align: center;
+    width: 350px;
+    margin: 80px auto;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .input {
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid grey;
+  }
+  
+  .btn {
+    background-color: rgb(28, 27, 27);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 75%;
+  }
+
+  .member{
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     color: grey; 
+  }
+
+  .member a{
+      color: black;
+  }
+
+  .link{
+      color: black;
+      text-align: center;
+      font-size: 12px;
+  }
+
+.terms{
+    color: grey;
+    padding: 4px 71px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+}
+ .terms span{
+     text-decoration: underline;
+ }
+  
