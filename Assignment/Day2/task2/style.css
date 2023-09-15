@@ -1,0 +1,25 @@
+.bg{
+    position: relative;
+    width: 670px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.bg-content{
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    color: white;
+}
+.btn{
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 30px;
+    border-radius: 30px;
+}

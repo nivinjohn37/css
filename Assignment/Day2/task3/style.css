@@ -1,0 +1,56 @@
+.bg{
+    position: relative;
+    width: 670px;
+    height: 400px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-img{
+    width: 100%; /* Make the image fill the container horizontally */
+    height: 100%; /* Make the image fill the container vertically */
+   
+}
+.bg-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} 
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.dropdown {
+    width: 150px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar {
+    flex-grow: 2;
+    margin-left: 10px; /* Adjust the margin as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Additional styling for the button */
+.btn {
+    background-color: #FF5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #E64E2E;
+}

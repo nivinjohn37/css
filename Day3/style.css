@@ -1,0 +1,87 @@
+.card {
+  width: 400px;
+}
+.card-img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.flexbox {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card h3{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.card p{
+    font-size: 14px;
+    margin: 6px auto;
+}
+
+.card-header{
+    position: relative;
+}
+
+
+.try{
+    position: absolute;
+    bottom: 0;
+    background-color: yellow;
+    color: yellow;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 3px 10px;
+    margin: 12px;
+}
+
+/****
+flex
+justify content - horz align
+align items - vertical
+
+**/
+.demo {
+  margin: 60px auto;
+  width: 520px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 14px;
+  display: none;
+}
+
+.demo-img {
+  width: 100%;
+  border-radius: 14px;
+}
+.profile {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.user {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.name {
+  margin: 0;
+}
+.username {
+  margin: 0;
+
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
