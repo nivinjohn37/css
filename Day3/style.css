@@ -1,87 +1,26 @@
-.card {
-  width: 400px;
-}
-.card-img {
-  width: 100%;
+.box{
+  background-color: #1de592;
+  width: 370px;
+  margin: 50px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 100px;
   border-radius: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.flexbox {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
+.box-p{
+  font-size: 12px;
 }
 
-.card h3{
-    font-size: 17px;
-    margin-bottom: 0;
-}
-
-.card p{
-    font-size: 14px;
-    margin: 6px auto;
-}
-
-.card-header{
-    position: relative;
-}
-
-
-.try{
-    position: absolute;
-    bottom: 0;
-    background-color: yellow;
-    color: yellow;
-    font-size: 14px;
-    border-radius: 12px;
-    padding: 3px 10px;
-    margin: 12px;
-}
-
-/****
-flex
-justify content - horz align
-align items - vertical
-
-**/
-.demo {
-  margin: 60px auto;
-  width: 520px;
-  border: 1px solid lightgrey;
+.btn{
+  border: none;
   padding: 10px;
-  border-radius: 14px;
-  display: none;
-}
-
-.demo-img {
-  width: 100%;
-  border-radius: 14px;
-}
-.profile {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-.user {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-}
-
-.name {
-  margin: 0;
-}
-.username {
-  margin: 0;
-
-}
-
-
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: 800;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  
 }
